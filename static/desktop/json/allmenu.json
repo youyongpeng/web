@@ -14,7 +14,7 @@
     },
     {
       "title": "打赏作者",
-      "pageURL": "/home/reward",
+      "pageURL": "/static/desktop/home/reward",
       "name": "打赏作者",
       "icon": "fa-qrcode",
       "openType": 1,
@@ -24,7 +24,7 @@
     },
     {
       "title": "基本说明",
-      "pageURL": "views/demo/introduce.html",
+      "pageURL": "/static/desktop/views/demo/introduce.html",
       "name": "基本说明",
       "icon": "fa-info-circle",
       "openType": 2,
@@ -34,7 +34,7 @@
     },
     {
       "title": "更新日志",
-      "pageURL": "/systemlog/index",
+      "pageURL": "/static/desktop/systemlog/index",
       "name": "更新日志",
       "icon": "fa-clock-o",
       "openType": 1,
@@ -43,9 +43,9 @@
       "id": 60
     },
     {
-      "title": "点赞",
-      "pageURL": "http://fly.layui.com/case/u/3547992",
-      "name": "点赞",
+      "title": "点赞AAA",
+      "pageURL": "#/HelloWorld",
+      "name": "点赞AAA",
       "icon": "fa-thumbs-up",
       "openType": 2,
       "extend": false,

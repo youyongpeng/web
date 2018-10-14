@@ -1,5 +1,5 @@
 layui.config({
-  base: '/static/desktop//lib/winui/', // 指定 winui 路径
+  base: '/static/desktop/lib/winui/', // 指定 winui 路径
   version: '1.0.0-beta'
 }).extend({ // 指定js别名
   window: 'js/winui.window',
@@ -131,7 +131,6 @@ layui.config({
       winui.window.msg('菜单配置错误（菜单链接、标题、id缺一不可）')
       return
     }
-
     var content
     if (type === 1) {
       $.ajax({

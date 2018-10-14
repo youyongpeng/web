@@ -1,5 +1,5 @@
 ﻿layui.config({
-    base: '../../lib/' //指定 lib 路径
+    base: '/static/desktop/lib/' //指定 lib 路径
     , version: '1.0.0-beta'
 }).extend({
     echarts: 'echarts/echarts',
