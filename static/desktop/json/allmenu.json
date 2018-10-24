@@ -34,10 +34,10 @@
     },
     {
       "title": "更新日志",
-      "pageURL": "/static/desktop/systemlog/index",
+      "pageURL": "#/ViewShow",
       "name": "更新日志",
       "icon": "fa-clock-o",
-      "openType": 1,
+      "openType": 2,
       "extend": false,
       "childs": null,
       "id": 60

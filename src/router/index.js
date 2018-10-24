@@ -18,7 +18,7 @@ export default new Router({
       component: ViewShow
     },
     {
-      path: '/',
+      path: '/Desktop',
       naem: 'Desktop',
       component: Desktop
     }
