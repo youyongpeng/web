@@ -3,9 +3,8 @@
 </template>
 
 <script>
-  export default {
-    name: 'ViewShow'
-  }
+export default {
+}
 </script>
 
 <style scoped>

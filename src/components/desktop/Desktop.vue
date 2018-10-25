@@ -250,13 +250,15 @@
 </template>
 
 <script>
+layui.config({
+  base: '/static/desktop/js/',
+  version: '1.0.0-beta'
+}).use('index')
+
 export default {
   name: 'Desktop',
   created: function () {
-    layui.config({
-      base: '/static/desktop/js/',
-      version: '1.0.0-beta'
-    }).use('index')
+
   }
 }
 </script>
