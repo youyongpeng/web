@@ -58,9 +58,9 @@
       "id": 22
     },
     {
-      "title": "点赞",
-      "pageURL": "http://fly.layui.com/case/u/3547992",
-      "name": "点赞",
+      "title": "点赞A",
+      "pageURL": "/HelloWorld",
+      "name": "点赞A",
       "icon": "fa-thumbs-up",
       "openType": 2,
       "extend": false,

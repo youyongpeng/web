@@ -88,7 +88,7 @@ layui.define(['jquery', 'layer', 'winui'], function (exports) {
     var configs = {
       id: 'helper',
       type: 1,
-      title: '桌面助手',
+      title: '桌面助手AAA',
       skin: 'layer-ext-winhelper',
       shade: 0,
       closeBtn: 0,

@@ -24,7 +24,7 @@
     },
     {
       "title": "基本说明",
-      "pageURL": "/static/desktop/views/demo/introduce.html",
+      "pageURL": "/Desktop/Winui/Settings",
       "name": "基本说明",
       "icon": "fa-info-circle",
       "openType": 2,
@@ -34,17 +34,17 @@
     },
     {
       "title": "更新日志",
-      "pageURL": "/static/desktop/systemlog/index",
+      "pageURL": "/ViewShow",
       "name": "更新日志",
       "icon": "fa-clock-o",
-      "openType": 1,
+      "openType": 2,
       "extend": false,
       "childs": null,
       "id": 60
     },
     {
       "title": "点赞AAA",
-      "pageURL": "#/HelloWorld",
+      "pageURL": "/HelloWorld",
       "name": "点赞AAA",
       "icon": "fa-thumbs-up",
       "openType": 2,
@@ -72,7 +72,7 @@
       "childs": [
         {
           "title": "系统菜单",
-          "pageURL": "views/menu/list_iframe.html",
+          "pageURL": "/views/menu/list_iframe.html",
           "name": "系统菜单",
           "icon": "fa-navicon",
           "openType": 2,
