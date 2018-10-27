@@ -86,13 +86,15 @@
 </template>
 
 <script>
-
 export default {
   created: function () {
-    layui.use(['element', 'form'], function (element, form) {
+    layui.config({
+      base: '/static/desktop/lib/winui/', // 指定 winui 路径
+      version: '1.0.0-beta'
+    }).use(['element', 'form', 'winui', 'helper', 'window', 'layer' ], function (element, form) {
       var $ = layui.jquery,
         setSlider = function (opacity, filter) {
-          var selectFilte = ''
+          var selectFilter = ''
           if (filter) { selectFilter = '[lay-filter="' + filter + '"]' }
           // 设置进度条位置
           element.progress(filter, opacity * 100 + '%')
@@ -125,6 +127,8 @@ export default {
 
       // 背景颜色设置
       $('.bgcolor-item').on('click', function () {
+        console.info("+++++++++++++++++++")
+        console.info($(window.parent.document))
         $(this).addClass('selected').siblings().removeClass('selected')
         var bgColor = $(this).data('color')
         winui.helper.bgset({

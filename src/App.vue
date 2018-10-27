@@ -9,7 +9,9 @@
 
 <script>
 export default {
-  name: 'App'
+  created: function () {
+
+  }
 }
 </script>
 
